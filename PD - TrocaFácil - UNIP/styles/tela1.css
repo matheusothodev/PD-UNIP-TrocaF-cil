@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lexend+Deca:wght@100..900&display=swap');
+/* isso aqui é o link de importação da fonte padrão do site */
+
+ /* estilização geral */
+*{
+    font-family: "Lexend Deca", sans-serif;
+}
+
+body{
+    background: linear-gradient(180deg, #FFF3E0, #f5e0c0, #f7d29c);
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+header{
+    background: orange;
+}
+/* essa media define uma estilização 
+para aparelhos onde tem como 1024px o requisito minimo de width
+então tudo superior a essa largura vai ser estilizado*/
+@media(min-width:1024px){   
+
+        
+    /* começo tela de login */
+    .section1{
+        display: grid;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    .TF-logo{   
+        margin: 3% 3% 3% 3%;
+        width: 20%;
+    }
+
+    .align-logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-login{
+        text-align: center;
+        color: orange ;
+        font-size: 400%;
+        font-weight: 800;
+
+    }
+
+    .card{  
+        margin-top: 3%;
+        border-radius: 25px;
+        box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
+    }
+
+    .email-login{
+        margin: 3%;
+        display: flex;
+        align-items: center;
+        justify-content:start;
+        gap: 2%;
+    }
+
+    .email-login h3{
+        padding: 0;
+        margin: 0;
+    }
+
+    .email-login input{
+        font-weight: 400;
+        width: 80% ;
+        font-size: 190%;
+        border: none;
+    }
+
+    .email-login input:focus{
+        outline: none;
+    }
+
+
+    .email-login i{
+        font-size: 250%;
+        color: orange;
+    }
+
+    .email-senha{
+        margin: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 2%;
+    }
+
+    .email-senha h3{
+        padding: 0;
+        margin: 0;
+    }
+
+    .email-senha input{
+        font-weight: 400;
+        width: 80% ;
+        font-size: 190%;
+        border: none;
+    }
+
+    .email-senha input:focus{
+        outline: none;
+    }
+
+    .email-senha i{
+        font-size: 250%;
+        color: orange;
+    }
+
+
+   .btn-align {
+        display: flex;
+        justify-content: center; 
+        margin: 7% 0 2% 0;
+    }
+
+    .btn-login-and-cadastro {
+        display: inline-block;
+        font-weight: 600;
+        background-color: orange;
+        padding: 5% 40%;
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+        transition: 0.6s;
+        font-size: 190%;
+        box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
+    }
+
+    .btn-login-and-cadastro:hover{
+        transition: 0.6s;
+        background-color: rgb(235, 189, 105);
+        transform: scale(1.05);
+    }
+
+    hr{
+        margin: 3% 0 2% 0;
+    }
+
+    .text-cadastro{
+        font-size: 170%;
+        text-align: center;
+        margin: 2% 0 7% 0;
+    }
+    
+    .text-cadastro a{
+        color: rgb(255, 145, 0);
+    }
+
+    /* final da tela de login */
+
+    /* começo tela de cadastro */
+
+    .section3{
+        display: grid;
+        margin-top: 10%;
+    }
+
+    .section3 p{
+        text-align: center;
+        margin: 0 0 3% 0;
+        color: orange;
+        font-weight: 600;
+    }
+
+    .title-cadastro{
+        text-align: center;
+        color: orange ;
+        margin: 0;
+        font-size: 200%;
+        font-weight: 800;
+    }
+
+    .info-cadastro{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        gap: 10px;  
+    }
+
+    .info-cadastro input{
+        padding:3% 5% 3% 5%;
+        border-radius: 20px;
+        font-weight: 400;
+        width: 80% ;
+        font-size: 100%;
+        border: none;
+        margin: 2% 10% 2% 10% ;
+        box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
+
+    }
+
+    .info-cadastro input:focus{
+        outline: none;
+    }
+
+    .btn-align-margins{
+        margin: 2% 10% 0 10%;
+    }
+    /* final tela de cadastro */
+
+}
+
+
+/* essa media define uma estilização 
+para aparelhos onde tem como 1023px o requisito máximo de width
+então tudo inferior a essa largura vai ser estilizado*/
+@media (max-width: 430px){
+    
+    /* começo tela de login */
+    .section1{
+        display: grid;
+        margin-top: 10%;
+    }
+
+    .TF-logo{   
+        margin: 3% 3% 3% 3%;
+        width: 60%;
+    }
+
+    .align-logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-login{
+        text-align: center;
+        color: orange ;
+        font-size: 200%;
+        font-weight: 800;
+
+    }
+
+    .card{
+        display: flex;
+        justify-content: center;
+        margin: 7% 15% 0% 15%;
+        border-radius: 20px;
+        border-bottom: none ;
+        box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
+    }
+
+    .email-login{
+        margin: 5%;
+        display: flex;
+        align-items: center;
+        justify-content:start;
+        gap: 2%;
+    }
+
+    .email-login h3{
+        padding: 0;
+        margin: 0;
+    }
+
+    .email-login input{
+        font-weight: 400;
+        width: 80% ;
+        font-size: 100%;
+        border: none;
+    }
+
+    .email-login input:focus{
+        outline: none;
+    }
+
+
+    .email-login i{
+        font-size: 150%;
+        color: orange;
+    }
+
+    .email-senha{
+        margin: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 2%;
+    }
+
+    .email-senha h3{
+        padding: 0;
+        margin: 0;
+    }
+
+    .email-senha input{
+        font-weight: 400;
+        width: 80% ;
+        font-size: 100%;
+        border: none;
+    }
+
+    .email-senha input:focus{
+        outline: none;
+    }
+
+    .email-senha i{
+        font-size: 150%;
+        color: orange;
+    }
+
+
+   .btn-align {
+        display: flex;
+        justify-content: center; 
+        margin: 7% 0 10% 0;
+    }
+
+    .btn-login-and-cadastro {
+        display: inline-block;
+        font-weight: 600;
+        background-color: orange;
+        padding: 5% 28%;
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+        transition: 0.6s;
+        box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
+    }
+
+    .btn-login-and-cadastro:hover{
+        transition: 0.6s;
+        background-color: rgb(235, 189, 105);
+        transform: scale(1.05);
+    }
+
+    hr{
+        margin: 3% 0 5% 0;
+    }
+
+    .text-cadastro{
+        font-size: 120%;
+        text-align: center;
+        margin: 7% 0 0 0;
+    }
+    
+    .text-cadastro a{
+        color: rgb(255, 145, 0);
+    }
+
+    /* final da tela de login */
+
+    /* começo tela de cadastro */
+
+    .section3{
+        display: grid;
+        margin-top: 10%;
+    }
+
+    .section3 p{
+        text-align: center;
+        margin: 0 0 3% 0;
+        color: orange;
+        font-weight: 600;
+    }
+
+    .title-cadastro{
+        text-align: center;
+        color: orange ;
+        margin: 0;
+        font-size: 200%;
+        font-weight: 800;
+    }
+
+    .info-cadastro{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        gap: 10px;  
+    }
+
+    .info-cadastro input{
+        padding:3% 5% 3% 5%;
+        border-radius: 20px;
+        font-weight: 400;
+        width: 80% ;
+        font-size: 100%;
+        border: none;
+        margin: 2% 10% 2% 10% ;
+        box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
+
+    }
+
+    .info-cadastro input:focus{
+        outline: none;
+    }
+
+    .btn-align-margins{
+        margin: 2% 10% 0 10%;
+    }
+    /* final tela de cadastro */
+}
