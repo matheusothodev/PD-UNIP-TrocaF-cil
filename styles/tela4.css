@@ -1,17 +1,195 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lexend+Deca:wght@100..900&display=swap');
-/* isso aqui é o link de importação da fonte padrão do site */
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lexend+Deca:wght@100..900&display=swap');
+    /* isso aqui é o link de importação da fonte padrão do site */
 
- /* estilização geral */
-*{
-    font-family: "Lexend Deca", sans-serif;
-}
+    /* estilização geral */
+    *{
+        font-family: "Lexend Deca", sans-serif;
+    }
 
-body{
-    background: linear-gradient(180deg, #FFF3E0, #f5e0c0, #f7d29c);
-    margin: 0;
-    min-height: 100vh;
-}
+    body{
+        /* background: linear-gradient(180deg, #FFF3E0, #f5e0c0, #f7d29c); */
+        background: white;
+        margin: 0;
+        min-height: 100vh;
+    }
 
-header{
-    background: orange;
-}
+
+    header{
+        background: orange;
+    }
+
+    @media(min-width:1025px){   
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+    }
+
+    @media (max-width: 768px){
+        
+        header{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 75px;
+        }
+        
+
+        .back {
+            transform: rotate(180deg);
+            color: white;
+            position: absolute;
+            left: 4%;
+            font-size: 140%;
+        }
+
+        header h3{
+            margin: 0;
+            font-size: 130%;
+            color: white;
+        }
+
+        .icon-user {
+            color: white;
+            position: absolute;
+            right: 4%;
+            font-size: 120%;
+        }
+
+        .geral{
+            margin: 0 5% 0 5%;
+        }
+
+        .card{
+            margin: 3% 0 7% 0;
+            border-radius: 20px;
+            box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
+        }
+
+        .item{
+            width: 80%;
+        }
+
+        .produtos{
+            margin: 10% 3% 10% 3%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .situation{
+            display: flex;
+            align-items: center;
+            gap: 1%;
+            margin-bottom: 2%;
+        }
+
+        .situation h5{
+            margin: 0;
+            font-size: 100%;
+        }
+
+        .situation i{
+            color: green;
+            font-size: 90%;
+            margin-top: 0.5%;
+        }
+
+        .title{
+            margin: 10% 2% 3% 2%;
+        }
+
+        .title h3{
+            text-align: start;
+            font-size: 100%;
+        }
+
+        .title h5{
+            color: green;
+            text-decoration: double;
+        }
+
+        .color span{
+            font-weight: 600;
+        }
+
+        .color{
+            font-size: 100%;
+            font-weight: 300;
+            margin: 0 2% 0 2%;
+        }
+
+         .descricao span{
+            font-weight: 600;
+        }
+
+        .descricao{
+            font-size: 100%;
+            font-weight: 300;
+            margin: 2% 2% 0 2%;
+        }
+        
+        .text-descricao{
+            margin: 0 2% 0 2%;
+            font-weight: 300;   
+            font-size: 95%;
+            text-align: justify;
+        }
+
+        .info-contato h3{
+            text-align: center;
+            font-size: 95%;
+            margin: 2% 2% 3% 2%;
+        }
+
+        .info-contato h2{
+            color: orange;
+            margin: 5% 2% 0 2%;
+            text-align: center;
+            font-size: 150%;
+        }
+
+        #i-contato{
+            font-size: 150%;
+            color: white;
+            text-align: center  ;
+        }
+
+        .contatos{
+            margin-bottom: 5%;
+            gap: 3%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn-ctt{
+            padding: 8px 15px;
+            background: orange;
+            border-radius: 10px;
+            border: none;
+            margin: 0 0 15% 0;
+            transition: 600ms;
+        }
+
+        .btn-ctt:hover{
+            transform: scale(1.05);
+            transition: 600ms;
+            background: rgb(240, 204, 137);
+        }
+
+        hr{
+            margin: 0
+        }
+
+        footer h6{
+            background: orange;
+            color: white;
+            text-align: center;
+            margin: 5% 0 5% 0;
+        }
+
+        .rodapé {
+            width: 100%;
+            background-color: orange; /* ou a cor que quiser */
+            padding: 5px 0;
+        }
+    }
