@@ -7,7 +7,8 @@
     }
 
     body{
-        background: linear-gradient(180deg, #FFF3E0, #f5e0c0, #f7d29c);
+        /* background: linear-gradient(180deg, #FFF3E0, #f5e0c0, #f7d29c); */
+        background-color: white;
         margin: 0;
         min-height: 100vh;
     }
@@ -479,8 +480,9 @@
 
         .card{
             display: flex;
+            padding: 10px;
             justify-content: center;
-            margin: 7% 15% 0% 15%;
+            margin: 7% 15% 2.5% 15%;
             border-radius: 20px;
             border-bottom: none ;
             box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
@@ -562,6 +564,7 @@
             color: white;
             transition: 0.6s;
             box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
+            margin-bottom: 25px;
         }
 
         .btn-login:hover{
