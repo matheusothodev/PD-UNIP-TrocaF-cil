@@ -30,22 +30,26 @@ body{
 
 /* CONTAINER PRINCIPAL */
 .tela{
-    max-width: 600px;
+    max-width: 800px;
     margin: 30px auto;
-    background: #e9dfcf;
+    background: #ffffff;
     padding: 25px;
     border-radius: 20px;
     box-shadow: 3px 5px 15px rgba(0,0,0,0.2);
 }
 
+#search-brand{
+    color: white;
+}
 /* BUSCA */
 .search-box{
     display: flex;
     align-items: center;
-    background: #eee;
+    background: orange;
     padding: 10px 15px;
     border-radius: 25px;
     gap: 10px;
+    font-size: 130%;
 }
 
 .search-box input{
@@ -72,16 +76,23 @@ body{
 }
 
 .item{
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 15px;
-    background: #f2f2f2;
+    background: #ffffff;
     padding: 12px;
     border-radius: 15px;
+    border: solid rgb(196, 196, 196) 1px;
 }
 
 .item img{
-    width: 60px;
+    width: 100px;
+}
+
+.item h5{
+    font-weight: bold;
+    font-size: 135%;
 }
 
 /* STATUS */
@@ -90,7 +101,7 @@ body{
     color: green;
     padding: 3px 10px;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 100%;
 }
 
 /* BOTÃO */
@@ -108,9 +119,21 @@ body{
     font-weight: 600;
     display: inline-block;
     transition: 0.3s;
+    font-size: 130%;
 }
 
 .btn-cadastrar:hover{
     background: rgb(235, 189, 105);
+    transform: scale(1.05);
+}
+
+.click{
+    color: black;
+    transition: 600ms;
+    text-decoration: none;
+}
+
+.click:hover{
+    transition: 600ms;
     transform: scale(1.05);
 }

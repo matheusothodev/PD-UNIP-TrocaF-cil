@@ -1,667 +1,665 @@
-    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lexend+Deca:wght@100..900&display=swap');
-    /* isso aqui é o link de importação da fonte padrão do site */
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lexend+Deca:wght@100..900&display=swap');
+        /* isso aqui é o link de importação da fonte padrão do site */
 
-    /* estilização geral */
-    *{
-        font-family: "Lexend Deca", sans-serif;
-    }
+        /* estilização geral */
+        *{
+            font-family: "Lexend Deca", sans-serif;
+        }
 
-    body{
-        /* background: linear-gradient(180deg, #FFF3E0, #f5e0c0, #f7d29c); */
-        background-color: white;
-        margin: 0;
-        min-height: 100vh;
-    }
+        body{
+            /* background: linear-gradient(180deg, #FFF3E0, #f5e0c0, #f7d29c); */
+            background: white;
+            margin: 0;
+            min-height: 100vh;
+        }
 
 
-    header{
-        background: orange;
-    }
+        header{
+            background: orange;
+        }
 
-    @media(min-width:1025px){   
+        @media(min-width:1025px){   
+                /* começo tela de login */
+            .section1{
+                display: grid;
+                margin-top: 3%;
+            }
+
+            .TF-logo{       
+                margin: 1.5% 3% 1.5% 3%;
+                width: 10%;
+            }
+
+            .align-logo{
+                display: flex;
+                justify-content: center;
+            }
+
+            .title-login{
+                margin: 0 0 2% 0;
+                text-align: center;
+                color: orange ;
+                font-size: 350%;
+                font-weight: 800;
+
+            }
+
+            .card{
+                display: flex;
+                justify-content: center;
+                margin: 0% 30% 0% 30%;
+                border-radius: 20px;
+                height: 60%;
+                border-bottom: none ;
+                box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
+            }   
+
+            .email-login{
+                margin: 5%;
+                display: flex;
+                align-items: center;
+                justify-content:start;
+                gap: 2%;
+            }
+
+            .email-login h3{
+                padding: 0;
+                margin: 0;
+            }
+
+            .email-login input{
+                font-weight: 400;
+                width: 80% ;
+                font-size: 180%;
+                border: none;
+            }
+
+            .email-login input:focus{
+                outline: none;
+            }
+
+
+            .email-login i{
+                margin-top: 0.5%;
+                font-size: 220%;
+                color: orange;
+            }
+
+            .email-senha{
+                margin: 5%;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 2%;
+            }
+
+            .email-senha h3{
+                padding: 0;
+                margin: 0;
+            }
+
+            .email-senha input{
+                font-weight: 400;
+                width: 80% ;
+                font-size: 180%;
+                border: none;   
+            }
+
+            .email-senha input:focus{
+                outline: none;
+            }
+
+            .email-senha i{
+                margin-top: 0.5%;
+                font-size: 220%;
+                color: orange;
+            }
+
+
+        .btn-align {
+                display: flex;
+                justify-content: center; 
+                margin: 0 0 2% 0;
+            }
+
+            .btn-login {
+                font-size: 150%;
+                display: inline-block;
+                font-weight: 600;
+                background-color: orange;
+                padding: 1% 18%;
+                border-radius: 20px;
+                text-decoration: none;
+                color: white;
+                transition: 0.6s;
+                box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
+            }
+
+            .btn-login:hover{
+                transition: 0.6s;
+                background-color: rgb(235, 189, 105);
+                transform: scale(1.05);
+            }
+
+            hr{
+                margin: 1% 0 0 0;
+            }
+
+            .text-cadastro{
+                font-size: 180%;
+                text-align: center;
+                margin: 1% 0 0 0;
+            }
+            
+            .text-cadastro a{
+                color: rgb(255, 145, 0);
+            }
+
+            /* final da tela de login */
+
+            /* começo tela de cadastro */
+
+            .section3{
+                display: grid;
+                margin-top: 2%;
+            }
+
+            .section3 p{
+                text-align: center;
+                margin: 0 0 1% 0;
+                color: orange;
+                font-weight: 600;
+                font-size: 150%;
+            }
+
+            .title-cadastro{
+                text-align: center;
+                color: orange ;
+                margin: 0;
+                font-size: 350%;
+                font-weight: 800;
+            }
+
+            .info-cadastro{
+                width: 100%;
+                display: grid;
+                justify-content: center;
+            }
+
+            .info-cadastro input{
+                padding:2% 3% 2% 3%;
+                border-radius: 20px;
+                font-weight: 400;
+                width: 80% ;
+                font-size: 100%;
+                border: none;
+                margin: 0% 10% 1% 10% ;
+                box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
+
+            }
+
+            .info-cadastro input:focus{
+                outline: none;
+            }
+
+            .btn-align-margins{
+                margin: 2% 10% 0 10%;
+            }
+
+            .btn-align2 {
+                display: flex;
+                justify-content: center; 
+                margin: 0% 0 10% 0;
+            }
+
+            .btn-cadastro {
+                font-size: 150%;
+                display: inline-block;
+                font-weight: 600;
+                background-color: orange;
+                padding: 1% 28%;
+                border-radius: 20px;
+                text-decoration: none;
+                color: white;
+                transition: 0.6s;
+                box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
+            }   
+
+            .btn-cadastro:hover{
+                transition: 0.6s;
+                background-color: rgb(235, 189, 105);
+                transform: scale(1.05);
+            }
+
+            
+            /* final tela de cadastro */
+
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
             /* começo tela de login */
-        .section1{
-            display: grid;
-            margin-top: 3%;
+            .section1{
+                display: grid;
+                margin-top: 5%;
+            }
+
+            .TF-logo{       
+                margin: 3% 3% 3% 3%;
+                width: 20%;
+            }
+
+            .align-logo{
+                display: flex;
+                justify-content: center;
+            }
+
+            .title-login{
+                text-align: center;
+                color: orange ;
+                font-size: 300%;
+                font-weight: 800;
+
+            }
+
+            .card{
+                display: flex;
+                justify-content: center;
+                margin: 4% 15% 0% 15%;
+                border-radius: 20px;
+                border-bottom: none ;
+                box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
+            }
+
+            .email-login{
+                margin: 5%;
+                display: flex;
+                align-items: center;
+                justify-content:start;
+                gap: 2%;
+            }
+
+            .email-login h3{
+                padding: 0;
+                margin: 0;
+            }
+
+            .email-login input{
+                font-weight: 400;
+                width: 80% ;
+                font-size: 150%;
+                border: none;
+            }
+
+            .email-login input:focus{
+                outline: none;
+            }
+
+
+            .email-login i{
+                margin-top: 1%;
+                font-size: 180%;
+                color: orange;
+            }
+
+            .email-senha{
+                margin: 5%;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 2%;
+            }
+
+            .email-senha h3{
+                padding: 0;
+                margin: 0;
+            }
+
+            .email-senha input{
+                font-weight: 400;
+                width: 80% ;
+                font-size: 150%;
+                border: none;
+            }
+
+            .email-senha input:focus{
+                outline: none;
+            }
+
+            .email-senha i{
+                margin-top: 0.5%;
+                font-size: 170%;
+                color: orange;
+            }
+
+
+        .btn-align {
+                display: flex;
+                justify-content: center; 
+                margin: 5% 0 5% 0;
+            }
+
+            .btn-login {
+                font-size: 150%;
+                display: inline-block;
+                font-weight: 600;
+                background-color: orange;
+                padding: 4% 28%;
+                border-radius: 20px;
+                text-decoration: none;
+                color: white;
+                transition: 0.6s;
+                box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
+            }
+
+            .btn-login:hover{
+                transition: 0.6s;
+                background-color: rgb(235, 189, 105);
+                transform: scale(1.05);
+            }
+
+            hr{
+                margin: 1% 0 1% 0;
+            }
+
+            .text-cadastro{
+                font-size: 150%;
+                text-align: center;
+                margin: 3% 0 0 0;
+            }
+            
+            .text-cadastro a{
+                color: rgb(255, 145, 0);
+            }
+
+            /* final da tela de login */
+
+            /* começo tela de cadastro */
+
+            .section3{
+                display: grid;
+                margin-top: 5%;
+            }
+
+            .section3 p{
+                text-align: center;
+                margin: 0 0 2% 0;
+                color: orange;
+                font-weight: 600;
+                font-size: 150%;
+            }
+
+            .title-cadastro{
+                text-align: center;
+                color: orange ;
+                margin: 0;
+                font-size: 300%;
+                font-weight: 800;
+            }
+
+            .info-cadastro{
+                width: 100%;
+                display: grid;
+                justify-content: center;
+            }
+
+            .info-cadastro input{
+                padding:3% 4% 3% 4%;
+                border-radius: 20px;
+                font-weight: 400;
+                width: 80% ;
+                font-size: 100%;
+                border: none;
+                margin: 1% 10% 2% 10% ;
+                box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
+
+            }
+
+            .info-cadastro input:focus{
+                outline: none;
+            }
+
+            .btn-align-margins{
+                margin: 2% 10% 0 10%;
+            }
+
+            .btn-align2 {
+                display: flex;
+                justify-content: center; 
+                margin: 3% 0 10% 0;
+            }
+
+            .btn-cadastro {
+                font-size: 150%;
+                display: inline-block;
+                font-weight: 600;
+                background-color: orange;
+                padding: 3% 38%;
+                border-radius: 20px;
+                text-decoration: none;
+                color: white;
+                transition: 0.6s;
+                box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
+            }
+
+            .btn-cadastro:hover{
+                transition: 0.6s;
+                background-color: rgb(235, 189, 105);
+                transform: scale(1.05);
+            }
+
+            
+            /* final tela de cadastro */
+            
+        }
+
+        @media (max-width: 768px){
+            
+            /* começo tela de login */
+            .section1{
+                display: grid;
+                margin-top: 15%;
+            }
+
+            .TF-logo{   
+                margin: 8% 3% 8% 3%;
+                width: 40%;
+            }
+
+            .align-logo{
+                display: flex;
+                justify-content: center;
+            }
+
+            .title-login{
+                text-align: center;
+                color: orange ;
+                font-size: 200%;
+                font-weight: 800;
+
+            }
+
+            .card{
+                display: flex;
+                justify-content: center;
+                margin: 7% 15% 0% 15%;
+                border-radius: 20px;
+                border-bottom: none ;
+                box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
+            }
+
+            .email-login{
+                margin: 5%;
+                display: flex;
+                align-items: center;
+                justify-content:start;
+                gap: 2%;
+            }
+
+            .email-login h3{
+                padding: 0;
+                margin: 0;
+            }
+
+            .email-login input{
+                font-weight: 400;
+                width: 80% ;
+                font-size: 100%;
+                border: none;
+            }
+
+            .email-login input:focus{
+                outline: none;
+            }
+
+
+            .email-login i{
+                font-size: 150%;
+                color: orange;
+            }
+
+            .email-senha{
+                margin: 5%;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 2%;
+            }
+
+            .email-senha h3{
+                padding: 0;
+                margin: 0;
+            }
+
+            .email-senha input{
+                font-weight: 400;
+                width: 80% ;
+                font-size: 100%;
+                border: none;
+            }
+
+            .email-senha input:focus{
+                outline: none;
+            }
+
+            .email-senha i{
+                font-size: 150%;
+                color: orange;
+            }
+
+
+        .btn-align {
+                display: flex;
+                justify-content: center; 
+                margin: 7% 0 5% 0;
+            }
+
+            .btn-login {
+                display: inline-block;
+                font-weight: 600;
+                background-color: orange;
+                padding: 3% 28%;
+                border-radius: 20px;
+                text-decoration: none;
+                color: white;
+                transition: 0.6s;
+                box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
+            }
+
+            .btn-login:hover{
+                transition: 0.6s;
+                background-color: rgb(235, 189, 105);
+                transform: scale(1.05);
+            }
+
+            hr{
+                margin: 5% 0 5% 0;
+            }
+
+            .text-cadastro{
+                font-size: 120%;
+                text-align: center;
+                margin: 3% 0 0 0;
+            }
+            
+            .text-cadastro a{
+                color: rgb(255, 145, 0);
+            }
+
+            /* final da tela de login */
+
+            /* começo tela de cadastro */
+
+            .section3{
+                display: grid;
+                margin-top: 5%;
+            }
+
+            .section3 p{
+                text-align: center;
+                margin: 0 0 3% 0;
+                color: orange;
+                font-weight: 600;
+            }
+
+            .title-cadastro{
+                text-align: center;
+                color: orange ;
+                margin: 0;
+                font-size: 200%;
+                font-weight: 800;
+            }
+
+            .info-cadastro{
+                width: 100%;
+                display: grid;
+                justify-content: center;
+                gap: 10px;  
+            }
+
+            .info-cadastro input{
+                padding:3% 5% 3% 5%;
+                border-radius: 20px;
+                font-weight: 400;
+                width: 80% ;
+                font-size: 100%;
+                border: none;
+                margin: 2% 10% 2% 10% ;
+                box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
+
+            }
+
+            .info-cadastro input:focus{
+                outline: none;
+            }
+
+            .btn-align-margins{
+                margin: 2% 10% 0 10%;
+            }
+
+            .btn-align2 {
+                display: flex;
+                justify-content: center; 
+                margin: 3% 0 10% 0;
+            }
+
+            .btn-cadastro {
+                display: inline-block;
+                font-weight: 600;
+                background-color: orange;
+                padding: 5% 28%;
+                border-radius: 20px;
+                text-decoration: none;
+                color: white;
+                transition: 0.6s;
+                box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
+            }
+
+            .btn-cadastro:hover{
+                transition: 0.6s;
+                background-color: rgb(235, 189, 105);
+                transform: scale(1.05);
+            }
+
+            
+            /* final tela de cadastro */
         }
-
-        .TF-logo{       
-            margin: 1.5% 3% 1.5% 3%;
-            width: 10%;
-        }
-
-        .align-logo{
-            display: flex;
-            justify-content: center;
-        }
-
-        .title-login{
-            margin: 0 0 2% 0;
-            text-align: center;
-            color: orange ;
-            font-size: 350%;
-            font-weight: 800;
-
-        }
-
-        .card{
-            display: flex;
-            justify-content: center;
-            margin: 0% 30% 0% 30%;
-            border-radius: 20px;
-            height: 60%;
-            border-bottom: none ;
-            box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
-        }   
-
-        .email-login{
-            margin: 5%;
-            display: flex;
-            align-items: center;
-            justify-content:start;
-            gap: 2%;
-        }
-
-        .email-login h3{
-            padding: 0;
-            margin: 0;
-        }
-
-        .email-login input{
-            font-weight: 400;
-            width: 80% ;
-            font-size: 180%;
-            border: none;
-        }
-
-        .email-login input:focus{
-            outline: none;
-        }
-
-
-        .email-login i{
-            margin-top: 0.5%;
-            font-size: 220%;
-            color: orange;
-        }
-
-        .email-senha{
-            margin: 5%;
-            display: flex;
-            align-items: center;
-            justify-content: start;
-            gap: 2%;
-        }
-
-        .email-senha h3{
-            padding: 0;
-            margin: 0;
-        }
-
-        .email-senha input{
-            font-weight: 400;
-            width: 80% ;
-            font-size: 180%;
-            border: none;   
-        }
-
-        .email-senha input:focus{
-            outline: none;
-        }
-
-        .email-senha i{
-            margin-top: 0.5%;
-            font-size: 220%;
-            color: orange;
-        }
-
-
-    .btn-align {
-            display: flex;
-            justify-content: center; 
-            margin: 0 0 2% 0;
-        }
-
-        .btn-login {
-            font-size: 150%;
-            display: inline-block;
-            font-weight: 600;
-            background-color: orange;
-            padding: 1% 18%;
-            border-radius: 20px;
-            text-decoration: none;
-            color: white;
-            transition: 0.6s;
-            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
-        }
-
-        .btn-login:hover{
-            transition: 0.6s;
-            background-color: rgb(235, 189, 105);
-            transform: scale(1.05);
-        }
-
-        hr{
-            margin: 1% 0 0 0;
-        }
-
-        .text-cadastro{
-            font-size: 180%;
-            text-align: center;
-            margin: 1% 0 0 0;
-        }
-        
-        .text-cadastro a{
-            color: rgb(255, 145, 0);
-        }
-
-        /* final da tela de login */
-
-        /* começo tela de cadastro */
-
-        .section3{
-            display: grid;
-            margin-top: 2%;
-        }
-
-        .section3 p{
-            text-align: center;
-            margin: 0 0 1% 0;
-            color: orange;
-            font-weight: 600;
-            font-size: 150%;
-        }
-
-        .title-cadastro{
-            text-align: center;
-            color: orange ;
-            margin: 0;
-            font-size: 350%;
-            font-weight: 800;
-        }
-
-        .info-cadastro{
-            width: 100%;
-            display: grid;
-            justify-content: center;
-        }
-
-        .info-cadastro input{
-            padding:2% 3% 2% 3%;
-            border-radius: 20px;
-            font-weight: 400;
-            width: 80% ;
-            font-size: 100%;
-            border: none;
-            margin: 0% 10% 1% 10% ;
-            box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
-
-        }
-
-        .info-cadastro input:focus{
-            outline: none;
-        }
-
-        .btn-align-margins{
-            margin: 2% 10% 0 10%;
-        }
-
-        .btn-align2 {
-            display: flex;
-            justify-content: center; 
-            margin: 0% 0 10% 0;
-        }
-
-        .btn-cadastro {
-            font-size: 150%;
-            display: inline-block;
-            font-weight: 600;
-            background-color: orange;
-            padding: 1% 28%;
-            border-radius: 20px;
-            text-decoration: none;
-            color: white;
-            transition: 0.6s;
-            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
-        }   
-
-        .btn-cadastro:hover{
-            transition: 0.6s;
-            background-color: rgb(235, 189, 105);
-            transform: scale(1.05);
-        }
-
-        
-        /* final tela de cadastro */
-
-    }
-
-    @media (min-width: 769px) and (max-width: 1024px) {
-        /* começo tela de login */
-        .section1{
-            display: grid;
-            margin-top: 5%;
-        }
-
-        .TF-logo{       
-            margin: 3% 3% 3% 3%;
-            width: 20%;
-        }
-
-        .align-logo{
-            display: flex;
-            justify-content: center;
-        }
-
-        .title-login{
-            text-align: center;
-            color: orange ;
-            font-size: 300%;
-            font-weight: 800;
-
-        }
-
-        .card{
-            display: flex;
-            justify-content: center;
-            margin: 4% 15% 0% 15%;
-            border-radius: 20px;
-            border-bottom: none ;
-            box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
-        }
-
-        .email-login{
-            margin: 5%;
-            display: flex;
-            align-items: center;
-            justify-content:start;
-            gap: 2%;
-        }
-
-        .email-login h3{
-            padding: 0;
-            margin: 0;
-        }
-
-        .email-login input{
-            font-weight: 400;
-            width: 80% ;
-            font-size: 150%;
-            border: none;
-        }
-
-        .email-login input:focus{
-            outline: none;
-        }
-
-
-        .email-login i{
-            margin-top: 1%;
-            font-size: 180%;
-            color: orange;
-        }
-
-        .email-senha{
-            margin: 5%;
-            display: flex;
-            align-items: center;
-            justify-content: start;
-            gap: 2%;
-        }
-
-        .email-senha h3{
-            padding: 0;
-            margin: 0;
-        }
-
-        .email-senha input{
-            font-weight: 400;
-            width: 80% ;
-            font-size: 150%;
-            border: none;
-        }
-
-        .email-senha input:focus{
-            outline: none;
-        }
-
-        .email-senha i{
-            margin-top: 0.5%;
-            font-size: 170%;
-            color: orange;
-        }
-
-
-    .btn-align {
-            display: flex;
-            justify-content: center; 
-            margin: 5% 0 5% 0;
-        }
-
-        .btn-login {
-            font-size: 150%;
-            display: inline-block;
-            font-weight: 600;
-            background-color: orange;
-            padding: 4% 28%;
-            border-radius: 20px;
-            text-decoration: none;
-            color: white;
-            transition: 0.6s;
-            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
-        }
-
-        .btn-login:hover{
-            transition: 0.6s;
-            background-color: rgb(235, 189, 105);
-            transform: scale(1.05);
-        }
-
-        hr{
-            margin: 1% 0 1% 0;
-        }
-
-        .text-cadastro{
-            font-size: 150%;
-            text-align: center;
-            margin: 3% 0 0 0;
-        }
-        
-        .text-cadastro a{
-            color: rgb(255, 145, 0);
-        }
-
-        /* final da tela de login */
-
-        /* começo tela de cadastro */
-
-        .section3{
-            display: grid;
-            margin-top: 5%;
-        }
-
-        .section3 p{
-            text-align: center;
-            margin: 0 0 2% 0;
-            color: orange;
-            font-weight: 600;
-            font-size: 150%;
-        }
-
-        .title-cadastro{
-            text-align: center;
-            color: orange ;
-            margin: 0;
-            font-size: 300%;
-            font-weight: 800;
-        }
-
-        .info-cadastro{
-            width: 100%;
-            display: grid;
-            justify-content: center;
-        }
-
-        .info-cadastro input{
-            padding:3% 4% 3% 4%;
-            border-radius: 20px;
-            font-weight: 400;
-            width: 80% ;
-            font-size: 100%;
-            border: none;
-            margin: 1% 10% 2% 10% ;
-            box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
-
-        }
-
-        .info-cadastro input:focus{
-            outline: none;
-        }
-
-        .btn-align-margins{
-            margin: 2% 10% 0 10%;
-        }
-
-        .btn-align2 {
-            display: flex;
-            justify-content: center; 
-            margin: 3% 0 10% 0;
-        }
-
-        .btn-cadastro {
-            font-size: 150%;
-            display: inline-block;
-            font-weight: 600;
-            background-color: orange;
-            padding: 3% 38%;
-            border-radius: 20px;
-            text-decoration: none;
-            color: white;
-            transition: 0.6s;
-            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
-        }
-
-        .btn-cadastro:hover{
-            transition: 0.6s;
-            background-color: rgb(235, 189, 105);
-            transform: scale(1.05);
-        }
-
-        
-        /* final tela de cadastro */
-        
-    }
-
-    @media (max-width: 768px){
-        
-        /* começo tela de login */
-        .section1{
-            display: grid;
-            margin-top: 15%;
-        }
-
-        .TF-logo{   
-            margin: 8% 3% 8% 3%;
-            width: 40%;
-        }
-
-        .align-logo{
-            display: flex;
-            justify-content: center;
-        }
-
-        .title-login{
-            text-align: center;
-            color: orange ;
-            font-size: 200%;
-            font-weight: 800;
-
-        }
-
-        .card{
-            display: flex;
-            padding: 10px;
-            justify-content: center;
-            margin: 7% 15% 2.5% 15%;
-            border-radius: 20px;
-            border-bottom: none ;
-            box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
-        }
-
-        .email-login{
-            margin: 5%;
-            display: flex;
-            align-items: center;
-            justify-content:start;
-            gap: 2%;
-        }
-
-        .email-login h3{
-            padding: 0;
-            margin: 0;
-        }
-
-        .email-login input{
-            font-weight: 400;
-            width: 80% ;
-            font-size: 100%;
-            border: none;
-        }
-
-        .email-login input:focus{
-            outline: none;
-        }
-
-
-        .email-login i{
-            font-size: 150%;
-            color: orange;
-        }
-
-        .email-senha{
-            margin: 5%;
-            display: flex;
-            align-items: center;
-            justify-content: start;
-            gap: 2%;
-        }
-
-        .email-senha h3{
-            padding: 0;
-            margin: 0;
-        }
-
-        .email-senha input{
-            font-weight: 400;
-            width: 80% ;
-            font-size: 100%;
-            border: none;
-        }
-
-        .email-senha input:focus{
-            outline: none;
-        }
-
-        .email-senha i{
-            font-size: 150%;
-            color: orange;
-        }
-
-
-    .btn-align {
-            display: flex;
-            justify-content: center; 
-            margin: 7% 0 5% 0;
-        }
-
-        .btn-login {
-            display: inline-block;
-            font-weight: 600;
-            background-color: orange;
-            padding: 3% 28%;
-            border-radius: 20px;
-            text-decoration: none;
-            color: white;
-            transition: 0.6s;
-            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
-            margin-bottom: 25px;
-        }
-
-        .btn-login:hover{
-            transition: 0.6s;
-            background-color: rgb(235, 189, 105);
-            transform: scale(1.05);
-        }
-
-        hr{
-            margin: 5% 0 5% 0;
-        }
-
-        .text-cadastro{
-            font-size: 120%;
-            text-align: center;
-            margin: 3% 0 0 0;
-        }
-        
-        .text-cadastro a{
-            color: rgb(255, 145, 0);
-        }
-
-        /* final da tela de login */
-
-        /* começo tela de cadastro */
-
-        .section3{
-            display: grid;
-            margin-top: 5%;
-        }
-
-        .section3 p{
-            text-align: center;
-            margin: 0 0 3% 0;
-            color: orange;
-            font-weight: 600;
-        }
-
-        .title-cadastro{
-            text-align: center;
-            color: orange ;
-            margin: 0;
-            font-size: 200%;
-            font-weight: 800;
-        }
-
-        .info-cadastro{
-            width: 100%;
-            display: grid;
-            justify-content: center;
-            gap: 10px;  
-        }
-
-        .info-cadastro input{
-            padding:3% 5% 3% 5%;
-            border-radius: 20px;
-            font-weight: 400;
-            width: 80% ;
-            font-size: 100%;
-            border: none;
-            margin: 2% 10% 2% 10% ;
-            box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.336);
-
-        }
-
-        .info-cadastro input:focus{
-            outline: none;
-        }
-
-        .btn-align-margins{
-            margin: 2% 10% 0 10%;
-        }
-
-        .btn-align2 {
-            display: flex;
-            justify-content: center; 
-            margin: 3% 0 10% 0;
-        }
-
-        .btn-cadastro {
-            display: inline-block;
-            font-weight: 600;
-            background-color: orange;
-            padding: 5% 28%;
-            border-radius: 20px;
-            text-decoration: none;
-            color: white;
-            transition: 0.6s;
-            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.336);
-        }
-
-        .btn-cadastro:hover{
-            transition: 0.6s;
-            background-color: rgb(235, 189, 105);
-            transform: scale(1.05);
-        }
-
-        
-        /* final tela de cadastro */
-    }
